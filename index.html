@@ -15,6 +15,39 @@
 <body>
 
     <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold">
+                    Data Structures Knight - the Book
+                </span>
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#topics">About The Book</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#contact">Get in Touch</a>
+                    </li>
+                    <li class="navbar-item d-md-none">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="navbar-item d-none d-md-inline"> <!-- "d-none d-md-inline" display on medium screens an up -->
+                        <a class="btn btn-secondary" href="#pricing">buy now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- main image & intro text -->
     <section id="intro">
